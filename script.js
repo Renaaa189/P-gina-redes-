@@ -8,7 +8,14 @@ window.addEventListener("scroll", function () {
   }
 });
 
-function cambiarTexto() {
-  const boton = document.getElementById("miBoton");
-  boton.textContent = "¡Texto cambiado!";
-}
+const botones = document.querySelectorAll(".card button");
+
+botones.forEach((boton) => {
+  boton.addEventListener("click", () => {
+    if (boton.textContent === "Ver más") {
+      boton.textContent = "Ver menos";
+    } else {
+      boton.textContent = "Ver más";
+    }
+  });
+});
