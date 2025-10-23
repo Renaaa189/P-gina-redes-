@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi Página Web</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css"> <!-- Conecta el CSS -->
 </head>
+
 <body>
   <header>
     <h1>Mi Página Web</h1>
@@ -19,35 +21,36 @@
   </header>
 
   <main>
+    <h1>Bienvenido a Mi Sitio</h1>
     <section id="about">
       <h2>Sobre mí</h2>
       <p>Hola! Soy parte del equipo y esta es una página de ejemplo.</p>
     </section>
 
-    <section id="servicios">
+    <section id="servicios" class="cards-container">
       <h2>Servicios</h2>
-      <div class="servicios">
-        <div class="card">
-          <h3>Diseño Web</h3>
-          <p>Creación de sitios web modernos y adaptables.</p>
-        </div>
-        <div class="card">
-          <h3>Desarrollo Front-End</h3>
-          <p>Experiencias dinámicas y responsivas.</p>
-        </div>
-      </div>
+
+      <article class="card">
+        <img src="https://picsum.photos/300/200" alt="Imagen 1">
+        <h3>Diseño Web</h3>
+        <p>Creación de sitios web modernos y adaptables.</p>
+        <button>Ver más</button>
+      </article>
+
+      <article class="card">
+        <img src="https://picsum.photos/301/200" alt="Imagen 2">
+        <h3>Desarrollo Front-End</h3>
+        <p>Experiencias dinámicas y responsivas.</p>
+        <button>Ver más</button>
+      </article>
+
+      <article class="card">
+        <img src="https://picsum.photos/302/200" alt="Imagen 3">
+        <h3>Optimización Web</h3>
+        <p>Velocidad, posicionamiento y mantenimiento continuo.</p>
+        <button>Ver más</button>
+      </article>
     </section>
   </main>
 
-  <footer id="contacto">
-    <p>© 2025 Mi Página Web</p>
-    <p>Seguime en:
-      <a href="#">Instagram</a> |
-      <a href="#">Twitter</a> |
-      <a href="#">LinkedIn</a>
-    </p>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
-</html>
