@@ -7,3 +7,8 @@ window.addEventListener("scroll", function () {
     header.style.backgroundColor = "transparent";
   }
 });
+
+function cambiarTexto() {
+  const boton = document.getElementById("miBoton");
+  boton.textContent = "¡Texto cambiado!";
+}
