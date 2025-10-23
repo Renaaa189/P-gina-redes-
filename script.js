@@ -19,3 +19,14 @@ botones.forEach((boton) => {
     }
   });
 });
+
+function validarNombre() {
+  const nombre = prompt("Por favor, ingresá tu nombre:");
+  if (!nombre || nombre.trim() === "") {
+    alert("⚠️ Debes ingresar un nombre válido.");
+  } else {
+    alert(`✅ ¡Bienvenido/a, ${nombre}!`);
+  }
+}
+
+
