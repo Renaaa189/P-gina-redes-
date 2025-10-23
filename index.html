@@ -4,9 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi Página Web</title>
-  <link rel="stylesheet" href="styles.css"> <!-- conecta el CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <script src="script.js"></script> <!-- conecta el JS -->
+  <header>
+    <h1>Mi Página Web</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>Sobre mí</h2>
+      <p>Hola! Soy parte del equipo y esta es una página de ejemplo.</p>
+    </section>
+
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <div class="servicios">
+        <div class="card">
+          <h3>Diseño Web</h3>
+          <p>Creación de sitios web modernos y adaptables.</p>
+        </div>
+        <div class="card">
+          <h3>Desarrollo Front-End</h3>
+          <p>Experiencias dinámicas y responsivas.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <p>© 2025 Mi Página Web</p>
+    <p>Seguime en:
+      <a href="#">Instagram</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">LinkedIn</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
